@@ -1,0 +1,237 @@
+@font-face {
+    font-family: Righteous-Regular;
+    src: url("../fond/Righteous-Regular.ttf"); 
+}
+
+@font-face {
+    font-family: PassionOne-Regular;
+    src: url("../fond/PassionOne-Regular.ttf")
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url("../fond/Helvetica-Bold.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("../fond/Montserrat-Bold.ttf");
+}
+
+body {
+    font: 16px/28px arial, sans serif;
+    background-color: #5e5555;
+    color: #333333;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    background-image: url("../img/6.jpg");
+    background-position-y: -90px;
+    padding: 20px;
+}
+
+.header .judul {
+    font-family: Montserrat-Bold;
+    text-align: center;
+    font-size: 110px;
+    color: rgb(111, 126, 112);
+    text-shadow: 100% #333333;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 40px;
+}
+
+.header .sub {
+    font-family: Montserrat-Bold;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.navigation {
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.navigation li {
+    font-family: Montserrat-Bold;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navigation a:hover {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.search {
+    font-family: Montserrat-Bold;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    opacity: 80%;
+    border-radius: 10px;
+}
+
+.search li {
+    font-family: Montserrat-Bold;
+    display: inline-block;
+}
+
+.input {
+    resize: none;
+    width: 700px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button {
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(14, 128, 199);
+}
+
+.button:hover {
+    background-color: rgb(87, 160, 92);
+    color: white;
+}
+
+.hero {
+    height: 300px;
+    background-image: url("../img/4.jpg");
+    background-size: cover;
+    background-position-y: -130px;
+    border-top: 5px solid #5e5555;
+    border-bottom: 5px solid #5e5555;
+}
+
+.hero:hover {
+    height: 300px;
+    background-color: black;
+    opacity: 80%;
+    background-position-y: -130px;
+    border-top: 5px solid #5e5555;
+    border-bottom: 5px solid #5e5555;
+}
+
+.hero h2 {
+    font-family: Montserrat-Bold;
+    float: left;
+    text-align: left;
+    font-size: 40px;
+    color: transparent;
+    font-weight: bold;
+    line-break: loose;
+    margin-left: 30px;
+    margin-top: 110px;
+}
+
+.hero h2:hover {
+    color: white;
+}
+
+.hero2 {
+    height: 300px;
+    background-image: url("../img/2.jpg");
+    background-size: cover;
+    background-position-y: -220px;
+    border-top: 5px solid #5e5555;
+    border-bottom: 5px solid #5e5555;
+}
+
+.hero2:hover {
+    height: 300px;
+    background-color: black;
+    opacity: 80%;
+    background-position-y: -220px;
+    border-top: 5px solid #5e5555;
+    border-bottom: 5px solid #5e5555;
+}
+
+.hero2 h2 {
+    font-family: Montserrat-Bold;
+    float: right;
+    text-align: right;
+    font-size: 40px;
+    color: transparent;
+    font-weight: bold;
+    line-break: loose;
+    margin-right: 30px;
+    margin-top: 110px;
+}
+
+.hero2 h2:hover {
+    color: white;
+}
+
+.hero3 {
+    height: 300px;
+    background-image: url("../img/8.jpg");
+    background-size: cover;
+    background-position-y: -130px;
+    border-top: 5px solid #5e5555;
+    border-bottom: 5px solid #5e5555;
+}
+
+.hero3:hover {
+    height: 300px;
+    background-color: black;
+    opacity: 80%;
+    background-position-y: -130px;
+    border-top: 5px solid #5e5555;
+    border-bottom: 5px solid #5e5555;
+}
+
+.hero3 h2 {
+    font-family: Montserrat-Bold;
+    text-align: center;
+    font-size: 40px;
+    color: transparent;
+    font-weight: bold;
+    line-break: loose;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 110px;
+}
+
+.hero3 h2:hover {
+    color: white;
+    text-shadow: #333333;
+}
+
+.footer {
+    background-color: #333333;
+    padding: 1px;
+    border-top: 1px solid #5e5555;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 18px;
+}
