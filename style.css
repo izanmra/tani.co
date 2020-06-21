@@ -1,0 +1,484 @@
+@font-face {
+  font-family: Helvetica-Bold;
+  src: url("../fonts 1/Helvetica-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../fonts 1/Montserrat-Bold.ttf");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border:0;
+  background:rgb(238, 234, 234);
+  height:1px;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: white;
+    box-shadow: 1px 1px 1px 1px rgb(252, 246, 246);
+    border-radius: 10px;
+  }
+  
+.navigation h1 {
+  font-family: Montserrat-Bold;
+  font-size: 30px;
+  justify-content: center; 
+  align-items: center;  
+  color: green;
+  flex: 1;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.navigation .login {
+  background-color: green;
+  border: white;
+  border-radius: 20px;
+}
+
+.navigation .login a {
+  color: white;
+}
+
+.navigation .login a:hover {
+  background: blue;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
+
+  .navigation a {
+    text-decoration: none;
+    font-family: Montserrat-Bold;
+    display: block;
+    margin: 2px;
+    padding: 1em;
+    color: black;
+    border-radius: 20px;
+    transition: ease 0.3s;
+  }
+  
+  .navigation a:hover {
+    background: black;
+    color: white;
+    border-radius: 20px;
+    transition: ease 0.3s;
+  }
+
+  .hero {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.hero div {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  float: left;
+  margin: 2px;
+  flex: 1;
+  border-radius: 10px;
+  transition: ease 0.3s;
+}
+
+.hero p {
+  text-align: left;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 20px;    
+  display: block;
+  padding: 1em;
+  padding-left: 3px;
+  margin-top: 0;
+  color: black;
+}
+
+.hero .satu {
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .dua {
+  justify-content: left;
+  align-items: left;
+}
+
+.hero .form {
+  justify-content: left;
+  align-items: left;
+}
+
+.hero .dua h2 {
+  text-align: left;
+  text-decoration: none;
+  font-family: Montserrat-Bold;
+  font-size: 25px;  
+  padding: 1em;
+  padding-left: 3px;
+  margin-top: 110px;
+  margin-bottom: 0;
+  display: block;
+  color: black;
+}
+
+.hero .satu img {
+  width: 85%;
+  height: 95%;
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+}
+
+.form {
+  width: 300px;
+  padding-left: 3px;
+}
+
+.search {
+  padding: 8px 15px;
+  background: rgba(50, 50, 50, 0.2);
+  border: 0px solid #dbdbdb;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.button {
+  position: relative;
+  padding: 6px 15px;
+  left: -8px;
+  border:2px solid green;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color:green;
+  color:#fafafa;
+  transition: ease 0.3s;
+}
+
+.button:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+  transition: ease 0.3s;
+}
+
+.why {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  
+  list-style: none;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.why h2 {
+  font-family: Montserrat-Bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.container-dua {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
+  list-style: none;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+.container-dua img {
+  width: 120px;
+  height: 120px;
+  border: 7px solid white;
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  border-radius: 100%;
+  margin-top: -50px;
+  transition: ease 0.3s;
+}
+
+.container-dua img:hover {
+  width: 150px;
+  height: 150px;
+  border: 7px solid white;
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  border-radius: 100%;
+  margin-top: -50px;
+  transition: ease 0.3s;
+}
+
+.container-dua h4 {
+  font-family: Montserrat-Bold;
+  text-align: center;
+}
+
+.container-dua p {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.layanan {
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 25px auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(241, 237, 237);
+  width: 30%;
+}
+
+.layanan.satu {
+  background-color: rgb(223, 219, 219);
+}
+
+.layanan.dua {
+  background-color: rgb(223, 219, 219);
+}
+
+.layanan.tiga {
+  background-color: rgb(223, 219, 219);
+}
+
+.hero1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.hero1 div {
+justify-content: center;
+align-items: center;
+background-color: white;
+float: left;
+margin: 2px;
+flex: 1;
+border-radius: 10px;
+transition: ease 0.3s;
+}
+
+.hero1 .satu1 {
+justify-content: center;
+align-items: center;
+}
+
+.hero1 .dua1 {
+justify-content: left;
+align-items: left;
+}
+
+.hero1 h3 {
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: Montserrat-Bold;
+  font-size: 25px;
+}
+
+.hero1 h4 {
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  margin-top: 3px;
+  text-align: center;
+  font-family: Montserrat-Bold;
+  font-size: 20px;
+}
+
+.hero1 .satu1 img {
+width: 350px;
+height: 350px;
+display: block;
+margin-left: auto;  
+margin-right: auto;
+border: 7px solid rgb(180, 175, 175);
+border-radius: 100%;
+}
+
+.hero1 .dua1 p {
+  text-align: left;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 20px;  
+  padding: 1em;
+  padding-left: 3px;
+  margin-top: 70px;
+  margin-bottom: 0;
+  display: block;
+  color: black;
+}
+
+.why1 {
+  background-color: whitesmoke;
+  padding-top: 3px;
+}
+
+.why2 {
+  background-color: rgb(130, 214, 130);
+  padding: 3px;
+}
+
+.why1 .kontak {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.why1 h3 {
+  font-family: Montserrat-Bold;
+  margin-top: 2px auto;
+  padding: 0;
+  text-align: center;
+}
+
+.why2 .kontak {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.why2 p {
+  font-family: Montserrat;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+
+.why1 .kontak li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.why1 .kontak img {
+  width: 40px;
+  height: 40px;
+  margin: 1%;
+}
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center;
+      margin: 0; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+
+    .hero {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+
+    .hero .satu {
+      order: 2;
+    }
+
+    .hero .dua {
+      order: 1;
+    }
+
+    .hero .dua h2 {
+      margin-top: 20px;
+    }
+
+    .hero1 .dua1 p {
+      margin-top: 20px;
+    }
+
+    .container-dua {
+      flex-flow: column wrap;
+  }
+
+  .layanan {
+      width: 80%;
+  }
+
+  }
+
+  @media all and (max-width: 400px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center;
+      margin: 0; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+
+    .hero {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+
+    .hero .satu {
+      order: 2;
+    }
+
+    .hero .dua {
+      order: 1;
+    }
+
+    .hero .dua h2 {
+      margin-top: 20px;
+    }
+
+    .hero1 .dua1 p {
+      margin-top: 20px;
+    }
+
+    .container-dua {
+      flex-flow: column wrap;
+  }
+
+  .layanan {
+      width: 80%;
+  }
+
+  
+  
+  Resources
