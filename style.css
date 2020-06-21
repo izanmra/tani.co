@@ -1,11 +1,11 @@
 @font-face {
   font-family: Helvetica-Bold;
-  src: url("../fonts 1/Helvetica-Bold.ttf");
+  src: url("fonts 1/Helvetica-Bold.ttf");
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url("../fonts 1/Montserrat-Bold.ttf");
+  src: url("fonts 1/Montserrat-Bold.ttf");
 }
 
 body {
